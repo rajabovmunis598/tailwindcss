@@ -1,0 +1,14 @@
+{
+  "name": "beautysalon-tailwind-v4",
+  "version": "1.0.0",
+  "description": "Beautysalon website with Tailwind CSS v4",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  }
+}

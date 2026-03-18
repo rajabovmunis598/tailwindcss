@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Tailwind v4: кастомизация тавассути CSS (config.js лозим нест) */
+@theme {
+  --color-brand: #69B99D;
+  --shadow-brand: 0px 5px 4px 0px #69B99D;
+}
